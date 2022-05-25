@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+header nav {
+  margin-left: auto;
+  border: solid black 2px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 0.75rem 2rem;
+  border-right: solid black 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  border: none;
+}
